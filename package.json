@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Maycon Alves <mayconmustaine@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
