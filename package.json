@@ -12,7 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
-    "mongoose": "^5.3.10"
+    "mongoose": "^5.3.10",
+    "require-dir": "^1.1.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.6"
