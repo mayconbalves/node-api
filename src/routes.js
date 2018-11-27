@@ -6,5 +6,6 @@ routes.get('/products', Product.index)
 routes.get('/products/:id', Product.show)
 routes.post('/products', Product.store)
 routes.put('/products/:id', Product.update)
+routes.delete('/products/:id', Product.delete)
 
 module.exports = routes
