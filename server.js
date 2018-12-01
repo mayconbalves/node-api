@@ -8,8 +8,8 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect('mongodb://localhost:27017/nodeapi', {
-	useNweUrlParser: true
+mongoose.connect('mongodb://node:node1234@ds121814.mlab.com:21814/products-node-api', {
+	useNewUrlParser: true
 })
 
 requireDir('./src/models')
